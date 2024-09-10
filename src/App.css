@@ -1,0 +1,46 @@
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.incriment {
+  background-color: #d4edda; /* Light green */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.dicriment {
+  background-color: #f8d7da; /* Light red */
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.input {
+  text-align: center;
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
